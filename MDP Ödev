@@ -54,7 +54,7 @@ if (harf == 'a , e , i , o') {
     return 0;
 }
 //Dördüncü soru
-int main() {
+void main() {
 int deger;
 
 
@@ -77,7 +77,7 @@ int deger;
     return 0;
 }
 //Altıncı soru
-int main() {
+void main() {
 int a;
 int b;
 int c;
