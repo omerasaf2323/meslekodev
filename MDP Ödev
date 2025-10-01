@@ -76,7 +76,7 @@ int deger;
 
     return 0;
 }
-
+//Altıncı soru
 int main() {
 int a;
 int b;
