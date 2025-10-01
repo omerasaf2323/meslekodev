@@ -18,6 +18,8 @@ carpim = birinci_sayi * ikinci_sayi;
 printf("Toplam: %d\n", toplam);
 printf("Fark: %d\n", fark);
 printf("Carpim: %d\n", carpim);
+
+
 //İkinci soru 
 return 0;
 }
@@ -39,6 +41,8 @@ scanf("%f", sayi);
 
     return 0;
 }
+
+
 //Üçüncü soru
 void main() {
 char harf;
@@ -53,6 +57,8 @@ if (harf == 'a , e , i , o') {
     }
     return 0;
 }
+
+
 //Dördüncü soru
 void main() {
 int deger;
@@ -76,6 +82,8 @@ int deger;
 
     return 0;
 }
+
+
 //Altıncı soru
 void main() {
 int a;
