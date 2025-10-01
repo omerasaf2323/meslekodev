@@ -1,0 +1,116 @@
+#include <stdio.h>
+//Birinci soru
+void main() {
+int birinci_sayi, ikinci_sayi;
+int toplam, fark, carpim;
+float bolum;
+
+printf("Birinci sayiyi giriniz: ");
+scanf("%d", birinci_sayi);
+
+printf("Ikinci sayiyi giriniz: ");
+scanf("%d", ikinci_sayi );
+
+toplam = birinci_sayi + ikinci_sayi;
+fark = birinci_sayi - ikinci_sayi;
+carpim = birinci_sayi * ikinci_sayi;
+
+printf("Toplam: %d\n", toplam);
+printf("Fark: %d\n", fark);
+printf("Carpim: %d\n", carpim);
+//İkinci soru 
+return 0;
+}
+
+
+void main() {
+float sayi;
+
+printf("Bir sayi giriniz: ");
+scanf("%f", sayi);
+
+    if (sayi > 0) {
+        printf("Pozitif \n");
+    } else if (sayi < 0) {
+        printf("Negatif \n");
+    } else {
+        printf("Sifir \n");
+    }
+
+    return 0;
+}
+//Üçüncü soru
+void main() {
+char harf;
+
+printf("Bir harf giriniz: ");
+scanf(" %c", harf);  
+
+if (harf == 'a , e , i , o') {
+        printf("Sesli Harf\n");
+    } else if (harf >= 'a' && harf <= 'z') {
+        printf("Sessiz Harf\n");
+    }
+    return 0;
+}
+//Dördüncü soru
+int main() {
+int deger;
+
+
+    printf("Bir deger giriniz:");
+    scanf("%d", deger);
+
+    for (int i = 1; i <= deger; i++) {
+
+        if (i / 3 == 0) {
+            continue;
+        }
+
+        if (i > 50) {
+            break;
+        }
+
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+
+int main() {
+int a;
+int b;
+int c;
+int temp;
+
+printf("1. sayiyi giriniz: ");
+scanf("%d", a);
+
+printf("2. sayiyi giriniz: ");
+scanf("%d", b);
+
+printf("3. sayiyi giriniz: ");
+scanf("%d", c);
+
+if (a > b) {
+      temp = a;
+      a = b;
+      b = temp;
+    }
+
+if (a > c) {
+      temp = a;
+      a = c;
+      c = temp;
+    }
+
+ if (b > c) {
+      temp = b;
+      b = c;
+      c = temp;
+    }
+
+    printf("Buyukten kucuge siralama: %d < %d < %d\n", a, b, c);
+
+    return 0;
+}
