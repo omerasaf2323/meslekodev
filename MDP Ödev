@@ -6,10 +6,10 @@ int toplam, fark, carpim;
 float bolum;
 
 printf("Birinci sayiyi giriniz: ");
-scanf("%d", birinci_sayi);
+scanf("%d", &birinci_sayi);
 
 printf("Ikinci sayiyi giriniz: ");
-scanf("%d", ikinci_sayi );
+scanf("%d", &ikinci_sayi );
 
 toplam = birinci_sayi + ikinci_sayi;
 fark = birinci_sayi - ikinci_sayi;
@@ -29,7 +29,7 @@ void main() {
 float sayi;
 
 printf("Bir sayi giriniz: ");
-scanf("%f", sayi);
+scanf("%f", &sayi);
 
     if (sayi > 0) {
         printf("Pozitif \n");
@@ -48,7 +48,7 @@ void main() {
 char harf;
 
 printf("Bir harf giriniz: ");
-scanf(" %c", harf);  
+scanf(" %c", &harf);  
 
 if (harf == 'a , e , i , o') {
         printf("Sesli Harf\n");
@@ -65,7 +65,7 @@ int deger;
 
 
     printf("Bir deger giriniz:");
-    scanf("%d", deger);
+    scanf("%d", &deger);
 
     for (int i = 1; i <= deger; i++) {
 
@@ -92,13 +92,13 @@ int c;
 int temp;
 
 printf("1. sayiyi giriniz: ");
-scanf("%d", a);
+scanf("%d", &a);
 
 printf("2. sayiyi giriniz: ");
-scanf("%d", b);
+scanf("%d", &b);
 
 printf("3. sayiyi giriniz: ");
-scanf("%d", c);
+scanf("%d", &c);
 
 if (a > b) {
       temp = a;
